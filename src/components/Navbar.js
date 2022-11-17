@@ -100,7 +100,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://github.com/KoushikDutta1999"
+              href="https://github.com/iamkoushik1999"
             >
               Github
               <FaGithub size={30} />
@@ -109,7 +109,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-400">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://twitter.com/iamkoushikdutta"
+              href="https://twitter.com/iamkoushik1999"
             >
               Twitter
               <FaTwitter size={30} />
@@ -118,7 +118,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-red-500">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://linktr.ee/KoushikDutta1999"
+              href="https://linktr.ee/iamkoushik1999"
             >
               All Links
               <BsFillPersonLinesFill size={30} />
