@@ -1,6 +1,9 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
+import portfilioTailwind from "../assets/Portfolio_Tailwind.jpg";
+import portfilio from "../assets/Portfolio.jpg";
+import voting_app from "../assets/Voting_app.jpg";
 
 const Work = () => {
   return (
@@ -17,7 +20,7 @@ const Work = () => {
           {/* Grid Item */}
           {/* Project 1 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${portfilioTailwind})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -26,12 +29,12 @@ const Work = () => {
                 React Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://iamkoushik1999-react-portfolio.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/iamkoushik1999/React-Portfolio-Tailwind">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -41,7 +44,7 @@ const Work = () => {
           </div>
           {/* Project 2 */}
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${portfilio})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -50,12 +53,12 @@ const Work = () => {
                 React Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://iamkoushik1999portfolio.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/iamkoushik1999/react-portfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -65,7 +68,7 @@ const Work = () => {
           </div>
           {/* Project 3 */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${voting_app})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover effect */}
@@ -74,12 +77,12 @@ const Work = () => {
                 React Js Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://voting-app-react.web.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/iamkoushik1999/Voting-App">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
